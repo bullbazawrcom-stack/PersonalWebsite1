@@ -1,0 +1,179 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #24253A;
+    box-sizing: border-box;
+
+}
+.navigation{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-size: 20px;
+    text-decoration: underline;
+    justify-content: flex-end;
+    background-color: #95A5A6;
+    padding: 25px;
+    margin-top: 0;
+}
+p{
+    font-family: "Playfair Display", serif;
+    font-size: 60px;
+    text-align: justify;
+}
+.Velkommen {
+    margin: 0 70px;
+
+   
+    
+}
+.Hellowing {
+    text-align: center;
+    text-decoration: underline;
+    color:#AEC6CF
+}
+img {
+    width: 1700px;
+    height: 500px;
+    border: #24252A;
+    border-radius: 40px;
+    
+}
+.ContainerHello{
+    display: flex;
+    flex-grow: 2;
+    gap: 100px;
+    font-size: 10px;
+}
+
+.Projectbutton {
+   all: unset;
+   font-size: 24px;
+   padding: 14px 52px;
+   background: hsl(0, 0%, 0%);
+   color: white;
+   text-transform: uppercase;
+   position: relative;
+   cursor: pointer;
+   border-radius: 100px;
+
+} 
+:root {
+--primary: 250 66% 61%;
+}
+ 
+.Skills {
+    text-align: center;
+    text-decoration: underline;
+    background-color: #95A5A6;
+    
+}
+.picturesoflogos {
+    
+  
+     background-color: #95A5A6;
+     margin-top: 40px;
+      
+}
+.Images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    overflow: hidden;
+}
+
+.button {
+  --glow-color: #AEC6CF; /* светлое свечение */
+  --glow-spread-color: rgba(174, 198, 207, 0.45); /* рассеянный свет */
+  --enhanced-glow-color: #D9E6EC; /* усиленное свечение */
+  --btn-color: #2C3E50; /* тёмно-синий фон кнопки */
+
+  border: 0.25em solid var(--glow-color);
+  padding: 20px 50px;
+  color: var(--glow-color);
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: var(--btn-color);
+  border-radius: 1em;
+  outline: none;
+
+  box-shadow: 0 0 1em 0.25em var(--glow-color),
+    0 0 3em 0.7em var(--glow-spread-color),
+    inset 0 0 0.74em 0.25em var(--glow-color);
+
+  text-shadow: 0 0 0.5em var(--glow-color);
+  position: relative;
+  transition: all 0.3s;
+  margin-left: 850px;
+  margin-top: 100px;
+}
+
+.button::after {
+  pointer-events: none;
+  content: "";
+  position: absolute;
+  top: 120%;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: var(--glow-spread-color);
+  filter: blur(2em);
+  opacity: 0.5;
+  transform: perspective(1.5em) rotateX(35deg) scale(1, 0.6);
+}
+
+.button:hover {
+  color: var(--btn-color);
+  background-color: var(--glow-color);
+
+  box-shadow: 0 0 1.2em 0.25em var(--glow-color),
+    0 0 4.5em 2em var(--glow-spread-color),
+    inset 0 0 0.9em 0.25em var(--glow-color);
+}
+
+.button:active {
+  box-shadow: 0 0 0.6em 0.25em var(--glow-color),
+    0 0 2.5em 1.5em var(--glow-spread-color),
+    inset 0 0 0.5em 0.25em var(--glow-color);
+}
+.Ommeg {
+    text-align: center;
+    text-decoration: underline;
+}
+.containerommeg {
+    display: flex;
+    gap: 70px;
+   
+    background-color:#95A5A6;
+    justify-content: space-between;
+    margin-top: 200px;
+    border: #95A5A6 solid 2px;
+    padding: 20px;
+   
+   
+}
+.containerommeg img {
+  width: 60px;
+  height: auto;
+  
+}
+.navn , .css , .html , .jegserfrem {
+    text-decoration: underline;
+    color: #AEC6CF;
+    
+}
+.Textommeg{
+    font-size: 50px;
+    margin: 0px 250px;
+    line-height: 1.5;
+}
+.cssicon:hover, .htmlicon {
+    transform: scale(1.2); /* Увеличиваем изображение на 10% */
+}
+.HTMLICON:hover {
+    transform: scale(1.2); /* Увеличиваем изображение на 10% */
+}
+ 

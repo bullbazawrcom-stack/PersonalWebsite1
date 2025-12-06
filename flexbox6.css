@@ -1,0 +1,93 @@
+.Container1 {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 0px 15px 15px 15px;
+    height: 900px;
+    color: white;
+    margin-left: 750px;
+  background-color: rgba(0, 0, 0, 0.80); /* Прозрачный черный фон */
+  margin-top: 50px;
+}
+
+  
+.checkbox1 p {
+    display: inline-block;
+    flex-direction: column;
+    margin-bottom: 1px;
+}
+.Radio1, p{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2px;
+
+
+}
+
+body {
+   background-image: url("back.jpg");   
+   font-size: 16px;
+   font-family: "Montserrat", sans-serif;
+   background-color: rgba(0, 0, 0, 1.90); /* Прозрачный черный фон */
+   
+   
+   
+   
+}
+.Name, .Age, .Email, .Content {
+    margin-bottom: 10px;
+    height: 50px;
+    font-size: 16px;
+}
+.Feedback {
+    display: flex;
+    padding: 10px 130px 80px 10px;
+    flex-direction: column;
+    
+    
+    
+}
+.SumbitButton {
+    
+   
+    background-color: red;
+    width: 140px;
+    border-radius: 30px;
+    height: 60px;
+    font-size: 16px;
+    color: white;
+    margin: 30px 0px 0px 110px;
+   
+    
+   
+    
+}
+.net {
+    color: white;
+   
+}
+.flix {
+    color: red;
+   
+}
+
+.Thanking {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    
+}
+.Netflix {
+   text-align: center;
+   font-size: 50px ;
+   font-style: bold;
+  
+   margin-top: 20px;
+   
+ 
+    
+}
+img {
+   filter: brightness(100%)
+}
+

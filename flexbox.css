@@ -1,0 +1,26 @@
+* {
+margin: 0;
+padding: 0;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* padding: 0px 20px; */
+    background-color: red;
+    border-bottom: solid 2px black;
+    
+    
+}
+.container p {
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+.container p:hover {
+    background-color: white;
+    font-weight: bold;
+   cursor: pointer;
+   border-bottom: 3px solid black;
+}

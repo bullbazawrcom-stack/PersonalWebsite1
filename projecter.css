@@ -1,0 +1,44 @@
+body {
+  background: linear-gradient(135deg, #1c2b38, #0f1621);
+  padding: 0 ;
+  margin: 0;
+  font-family: "Playwrite NO", cursive;
+
+}
+.Welcoming {
+    text-align: center;
+    font-size: 60px;
+    text-decoration: underline;
+    line-height: 50px;
+}
+ .fileicon2, .fileicon3 , .fileicon4, .fileicon5{
+  width: 120px;
+ 
+}
+.fileicon:hover {
+  transform: scale(1.2);
+}
+.fileicon:hover {
+  transform: scale(1.2);
+}
+.fileicon2:hover {
+  transform: scale(1.2);
+}
+.fileicon3:hover {
+  transform: scale(1.2);
+}
+.fileicon4:hover {
+  transform: scale(1.2);
+}
+.fileicon5:hover {
+  transform: scale(1.2);
+}
+.flexbox{
+  display: flex;
+  justify-content: center;
+}
+.fileicon {
+  width: 120px;
+  margin-left: 880px;
+}
+

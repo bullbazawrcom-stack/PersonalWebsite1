@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+img{
+    height: 300px;
+    width: auto ;
+    
+}
+   
+.container {
+    display: flex;
+    border: solid 5px black;
+    gap: 20px;
+    background-color: antiquewhite;
+    margin:0px 100px;
+    
+ }
+ .container, p {
+    margin-top: 10px;
+    gap: 50px;
+    
+ }
+ 
+ 
+ 
+    
+ 
